@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Colaborate;
+    src: url(../fonts/ColabBol.otf);
+}
+
+body {
+	background: #013bc0 url(../images/bg-body.jpg) repeat;
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	margin: 0;
+	padding: 0;
+	background: url(../images/bg-header.png) repeat-x bottom;
+	min-height: 20%;
+}
+
+header > h1 {
+	font-family: Colaborate;
+	color: #013bc0;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+section > div {
+	background-color: #fff;
+	margin-left: auto;
+	margin-right: auto;
+	width: 200px;
+	height: 350px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 5px;
+}
+
+section > div > h4 {
+	background: url(../images/bg-head.png) no-repeat;
+	background-size: 200px;
+	position: relative;
+	top: -30px;
+	left: -30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	margin: 0;
+	font-family: Colaborate;
+	color: #013bc0;
+}
+
+form {
+	background: #fff;
+}
+
+form > div {
+	padding-top: 20px;
+	float: left;
+	clear: both;
+}
+
+form > div:first-child {
+	padding-top: 0px;
+}
+
+form > div > label, form > div > p {
+	font-family: Colaborate;
+}
+
+@media screen and (min-width: 600px) {
+	header {
+		margin: 0;
+		padding: 0;
+		background: url(../images/bg-header.png) repeat-x bottom;
+		min-height: 100px;
+	}
+
+
+	header > h1 {
+		font-family: Colaborate;
+		color: #013bc0;
+		padding-top: 20px;
+		padding-left: 20px;
+	}
+
+	body {
+		background: #013bc0 url(../images/bg-body.jpg) repeat;
+		background-size: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+	section > div {
+		width: 500px;
+		height: 450px;
+		margin-top: 40px;
+		padding-left: 40px;
+	}
+
+	section > div > h4 {
+		left: -50px;
+	}
+}
+
+@media screen and (min-width: 1020px) {
+	section > div {
+		margin-top: 60px;
+	}
+}
